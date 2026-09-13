@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Billetera Aurinegra",
+    "slug": "billetera-aurinegra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.aurinegra.billetera"
+    }
+  }
+}
