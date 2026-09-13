@@ -7,6 +7,11 @@
     "platforms": ["android"],
     "android": {
       "package": "com.aurinegra.billetera"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4731f220-9766-443d-a651-c3c711204650"
+      }
     }
   }
 }
