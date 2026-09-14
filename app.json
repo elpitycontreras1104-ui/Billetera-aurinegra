@@ -5,7 +5,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "android": { "package": "com.elpitycor.billeteraoficial" },
-    "cli": { "appVersionSource": "local" },
     "extra": { "eas": { "projectId": "4731f220-9766-443d-a651-c3c711204650" } }
   }
 }
