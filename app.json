@@ -1,8 +1,9 @@
 {
   "expo": {
     "name": "Billetera CSDM",
-    "slug": "billetera-oficial-del-club-social-y-deportivo-madryn",
+    "slug": "billetera-csdm",
     "version": "1.0.0",
+    "orientation": "portrait",
     "android": {
       "package": "com.elpitycor.billeteraoficial"
     },
