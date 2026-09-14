@@ -4,6 +4,7 @@
     "slug": "billetera-oficial-del-club-social-y-deportivo-madryn",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "splash": {
       "backgroundColor": "#000000",
       "resizeMode": "contain"
@@ -11,9 +12,14 @@
     "android": {
       "package": "com.elpitycor.billeteraoficial",
       "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       }
     },
-    "extra": { "eas": { "projectId": "4731f220-9766-443d-a651-c3c711204650" } }
+    "extra": {
+      "eas": {
+        "projectId": "4731f220-9766-443d-a651-c3c711204650"
+      }
+    }
   }
 }
