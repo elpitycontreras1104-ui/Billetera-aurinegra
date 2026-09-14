@@ -5,20 +5,15 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "backgroundColor": "#0D0D0D",
-      "resizeMode": "contain"
-    },
+    "splash": { "backgroundColor": "#0D0D0D", "resizeMode": "contain" },
     "android": {
       "package": "com.elpitycor.billeteraoficial",
-      "adaptiveIcon": {
-        "backgroundColor": "#0D0D0D"
-      }
+      "permissions": ["android.permission.CAMERA"],
+      "adaptiveIcon": { "backgroundColor": "#0D0D0D" }
     },
-    "extra": {
-      "eas": {
-        "projectId": "4731f220-9766-443d-a651-c3c711204650"
-      }
-    }
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "Permitir acceder a la cámara para pagar con QR" }]
+    ],
+    "extra": { "eas": { "projectId": "4731f220-9766-443d-a651-c3c711204650" } }
   }
 }
